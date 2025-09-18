@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", Helvetica, Verdana;
+    position: static;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.header ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 24px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.header .link{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #004cb2;
+    font-weight: 500;
+}
+
+.hero{
+    display: flex;
+    align-items: stretch;
+    height: 500px;
+}
+
+.hero-bg{
+    width: 100vw;
+    height: 500px;
+    object-fit: cover;
+    object-position: center center;
+    position: absolute;
+}
+
+.hero-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: rgba(0,0,0,0.1);
+    margin: 0;
+    padding: 32px;
+    width: 550px;
+}
+
+.hero-text h1{
+    font-size: 5rem;
+    font-weight: 1000;
+    margin: 0;
+    padding: 0;
+    line-height: 5rem;
+}
+
+.hero-text p{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.hero-text button{
+    font-size: 1rem;
+    background-color: #fff;
+    border-color: 1px solid #004cb2;
+    border-radius: 8px;
+    color: #004cb2;
+    font-weight: 1000;
+    padding: 16px;
+    width: 300px;
+
+}
